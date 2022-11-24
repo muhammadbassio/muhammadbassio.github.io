@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="228px" height="130px" viewBox="0 0 228 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>safari</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.15381142%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E5E6E5" offset="0%"></stop>
+            <stop stop-color="#D3D3D3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="safari" transform="translate(1.000000, 1.000000)">
+            <rect id="Rectangle" stroke="#D3D3D3" fill="#FFFFFF" x="-0.5" y="-0.5" width="227" height="129" rx="2"></rect>
+            <path d="M2,0 L224,0 C225.104569,-2.02906125e-16 226,0.8954305 226,2 L226,16 L0,16 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-Copy" fill="url(#linearGradient-1)"></path>
+            <path d="M109.822197,48.1180196 C111.578226,45.2906254 114.429496,45.2973635 116.18134,48.1180196 L137.948571,83.1655885 C140.292851,86.9401297 138.585207,90 134.136657,90 L91.8668798,90 C87.4173377,90 85.7031145,86.9523199 88.0549654,83.1655885 L109.822197,48.1180196 Z M113,76 C114.11466,76 115,75.0926514 115,74 L115,62 C115,60.8939902 114.124954,60 113.002522,60 C111.887862,60 111,60.9073486 111,62 L111,74 C111,75.1060098 111.877569,76 113,76 Z M113,84 C114.10457,84 115,83.1045696 115,82 C115,80.8954304 114.10457,80 113,80 C111.89543,80 111,80.8954304 111,82 C111,83.1045696 111.89543,84 113,84 Z" id="error" fill="#FF0000" fill-rule="nonzero"></path>
+            <circle id="Oval" stroke="#D7615E" stroke-width="0.3" fill="#F7615C" cx="8" cy="8" r="2.85"></circle>
+            <circle id="Oval-Copy" stroke="#D8AB57" stroke-width="0.3" fill="#F8BD48" cx="16" cy="8" r="2.85"></circle>
+            <circle id="Oval-Copy-2" stroke="#51B35C" stroke-width="0.3" fill="#46C751" cx="24" cy="8" r="2.85"></circle>
+        </g>
+    </g>
+</svg>

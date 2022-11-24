@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    body { margin: 0; width:100%%; height:100%%; }
+    html { width:100%%; height:100%%; }
+    </style>
+</head>
+<body>
+    <div id="player"></div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+    var player;
+    YT.ready(function() {
+		player = new YT.Player('player', {
+				"playerVars" : {
+				"showinfo" : 0,
+			    "autohide" : 1,
+			    "controls" : 0,
+			    "rel" : 0,
+    			"modestbranding" : 1,
+    			"playsinline" : 1
+			},
+			"width" : "100%",
+			"videoId" : "adUJ16vPtcU",
+			"events" : {
+    			"onPlaybackQualityChange" : "onPlaybackQualityChange",
+    			"onStateChange" : "onStateChange",
+    			"onError" : "onPlayerError",
+    			"onReady" : "onReady"
+				},
+			"height" : "100%"
+			});
+		window.location.href = 'ytplayer://onYouTubeIframeAPIReady';
+   	});
+    function onReady(event) {
+        window.location.href = 'ytplayer://onReady?data=' + event.data;
+    }
+    function onStateChange(event) {
+        window.location.href = 'ytplayer://onStateChange?data=' + event.data;
+    }
+
+    function onPlaybackQualityChange(event) {
+        window.location.href = 'ytplayer://onPlaybackQualityChange?data=' + event.data;
+    }
+    function onPlayerError(event) {
+        window.location.href = 'ytplayer://onError?data=' + event.data;
+    }
+    </script>
+</body>
+</html>
