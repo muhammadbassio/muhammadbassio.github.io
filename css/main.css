@@ -251,10 +251,23 @@ marquee {
   max-width: 100%;
 }
 
+#applink {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .appstore-badge {
-  display: block;
+  display: inline;
   width: auto;
   height: 50px;
+  padding-bottom: 12px;
+}
+
+.playstore-badge {
+  display: inline;
+  width: auto;
+  height: 74px;
+  padding-left: -10px;
 }
 
 .app-marketing {
